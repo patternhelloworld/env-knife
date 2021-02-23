@@ -1,0 +1,37 @@
+{
+  "name": "arwg/env-knife",
+  "description": "A library for extracting and validating env-functions such as env(), config() on sources.",
+  "homepage": "https://github.com/arwg/env-knife",
+  "keywords": ["env", "validation", "validator", "config", "parser", "extractor"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Kang",
+      "email": "studypurpose@naver.com",
+      "role": "Web developer"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "v0.0.1-dev"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "php-coveralls/php-coveralls": "^2.2",
+    "phpunit/phpunit": "^8.5.8|^9.3.3",
+    "vimeo/psalm": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arwg\\EnvKnife\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Arwg\\EnvKnife\\Tests\\": "tests"
+    }
+  }
+}
