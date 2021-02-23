@@ -1,0 +1,3 @@
+<?php
+
+$aa = config('aaa');

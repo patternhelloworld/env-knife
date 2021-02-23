@@ -1,5 +1,7 @@
 # Env-Knife
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/arwg/env-knife.svg?style=flat-square)](https://packagist.org/packages/arwg/env-knife)
+
 ## Overview
 
 A library for extracting and validating env-functions such as env(), config() on sources
@@ -11,7 +13,7 @@ composer require arwg/env-knife
 
 ## Usage
 
-Simple to use. Only inputting the function name is required. 
+Simple to use. Input the name of the function used to load environment variables on source codes. 
 The thing is that no key-value setup is required.
 
 ```php
