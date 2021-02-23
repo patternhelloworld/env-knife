@@ -33,5 +33,7 @@
     "psr-4": {
       "Arwg\\EnvKnife\\Tests\\": "tests"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
